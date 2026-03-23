@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  background: #000;
+}
+
+/* LEFT */
+.left {
+  width: 50%;
+  color: white;
+  padding: 60px;
+  position: relative;
+}
+
+.logo {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.left h1 {
+  font-size: 36px;
+  line-height: 1.4;
+}
+
+.left span {
+  background: linear-gradient(90deg, orange, pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cards {
+  position: relative;
+  margin-top: 50px;
+}
+
+.card {
+  position: absolute;
+  border-radius: 20px;
+}
+
+.c1 {
+  left: 0;
+  transform: rotate(-10deg);
+}
+
+.c2 {
+  left: 80px;
+  top: 20px;
+}
+
+.c3 {
+  left: 160px;
+  transform: rotate(10deg);
+}
+
+/* RIGHT */
+.right {
+  width: 50%;
+  background: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 350px;
+}
+
+.form h3 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background: #1e1e1e;
+  color: white;
+}
+
+.login {
+  width: 100%;
+  padding: 14px;
+  background: #1877f2;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.forgot {
+  color: #aaa;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.facebook {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  background: transparent;
+  border: 1px solid #444;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.signup {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  background: transparent;
+  border: 1px solid #1877f2;
+  color: #1877f2;
+  cursor: pointer;
+}
+
+.meta {
+  text-align: center;
+  color: #777;
+  margin-top: 20px;
+  font-size: 12px;
+}

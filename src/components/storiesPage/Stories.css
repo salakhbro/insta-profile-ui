@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 540px;
+    margin-top: 10px;
+}
+
+.container-stories-two {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 1;
+}
+
+.container h3 {
+    background: transparent;
+}
+
+.footers {
+    width: 428px;
+    height: 80px;
+    background: #000;
+}
+
+.stories-image {
+    width: 428px;
+    height: 760px;
+}
+
+.footers {
+    display: flex;
+    align-items: center;
+}
+
+.envia {
+    width: 309px;
+    height: 44px;
+    border-radius: 40px;
+    border: 1px solid #9A9A9A;
+    background: transparent;
+    padding: 0 16px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.fa-heart {
+    color: #fff;
+    font-size: 25px;
+}
+
+.fa-solid {
+    color: #fff;
+    font-size: 20px;
+}
+
+.like-send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 30px;
+}
