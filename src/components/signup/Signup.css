@@ -97,6 +97,12 @@
   color: white;
   margin-top: 10px;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.logins {
+  text-decoration: none;
+  color: #fff;
 }
 
 .forgot {

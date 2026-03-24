@@ -1,6 +1,7 @@
 import React from "react";
 import Instagram from '../../assets/img/instgaram.png'
 import "./Signup.css";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
           <input type="text" placeholder="Mobile number, username or email" />
           <input type="password" placeholder="Password" />
 
-          <button className="login">Log in</button>
+          <button className="login"><Link className="logins" to="/">Log in</Link></button>
 
           <p className="forgot">Forgot password?</p>
 
