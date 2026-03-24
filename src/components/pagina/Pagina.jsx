@@ -37,6 +37,7 @@ import World from '../../assets/img/Post (15).png'
 import Caffe from '../../assets/img/Post (16).png'
 import ProfileInstagram from '../../assets/img/profile.png'
 import "./Pagina.css";
+import { Link } from "react-router-dom"
 
 function Profile() {
     return (
@@ -50,8 +51,7 @@ function Profile() {
             </div>
 
             <div className="profile-info">
-                <img src={Avatar} className="avatar" alt="this is a avatar" />
-
+                <Link className="imgs" to="/stories"><img src={Avatar} className="avatar" alt="this is a avatar" /></Link>
                 <div className="stats">
                     <div>
                         <h4>6956</h4>
